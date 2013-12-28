@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">What time is it there</string>
+  <string name="widget_text">Tony widget text</string>
+</resources>
