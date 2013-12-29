@@ -15,9 +15,6 @@ import android.widget.RemoteViews;
 
 public class WhatTimeIsItThere extends AppWidgetProvider
 {
-
-public class HelloWidget extends AppWidgetProvider {
-	
 	@Override
 	public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds) {
 		
@@ -34,7 +31,7 @@ public class HelloWidget extends AppWidgetProvider {
 	public MyTime(Context context, AppWidgetManager appWidgetManager) {
 		this.appWidgetManager = appWidgetManager;
 		remoteViews = new RemoteViews(context.getPackageName(), R.layout.main);
-		thisWidget = new ComponentName(context, HelloWidget.class);
+		thisWidget = new ComponentName(context, WhatTimeIsItThere.class);
 	}
 	
 	@Override
@@ -44,7 +41,4 @@ public class HelloWidget extends AppWidgetProvider {
 	}
 		
 	} 
-}
-   
-
 }

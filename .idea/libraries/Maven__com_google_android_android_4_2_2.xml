@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Maven: com.google.android:android:4.2.2">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17" />
+      <root url="file://$APPLICATION_HOME_DIR$/sdk/sources/android-18" />
+      <root url="file://$APPLICATION_HOME_DIR$/sdk/sources/android-19" />
+    </SOURCES>
+  </library>
+</component>
